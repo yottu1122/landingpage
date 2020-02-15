@@ -227,7 +227,7 @@ li {
 .nav-btn span {
   width: 40px;
   height: 4px;
-  background-color: #FFE600;
+  background-color: #3cb371;
   display: block;
   border-radius: 2px;
   -webkit-transition: all 0.125s ease-in-out;
@@ -388,6 +388,12 @@ nav {
   text-align: center;
   padding: 160px 0px;
 }
+
+.represent{
+  width:500px ;
+  height: 300px;
+}
+
 .intro p {
   margin-top: 70px;
   font-size: 1rem;
@@ -865,4 +871,20 @@ footer {
   .quote-bg-rect {
     display: none;
   }
+}
+
+.btn-stitch {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #3cb371;
+  color: #FFF;
+  border-radius: 4px;
+  box-shadow: 0px 0px 0px 5px #3cb371;
+  border: dashed 1px #FFF;
+  margin-top: 30px;
+}
+
+.btn-stitch:hover {
+  border: dotted 1px #FFF;
 }
