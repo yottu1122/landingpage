@@ -147,7 +147,7 @@ h1,
 h2,
 .h2 {
   font-size: 1.3rem;
-  color: #1B1B1B;
+  color: #3cb371;
   letter-spacing: 1rem;
   margin: 20px 0px;
   line-height: 2.5rem;
@@ -170,7 +170,7 @@ h4,
   margin-top: 70px;
   font-size: 1rem;
   line-height: 2rem;
-  color: #1B1B1B;
+  color: #696969;
   font-weight: 600;
   margin: 20px 0px;
 }
@@ -180,7 +180,7 @@ h5,
   margin-top: 70px;
   font-size: 1rem;
   line-height: 2rem;
-  color: #707070;
+  color: #696969;
   font-weight: 400;
   margin: 0px;
   padding: 0px 100px;
@@ -195,14 +195,14 @@ h6,
 p {
   font-size: 16px;
   line-height: 1.8;
-  color: #1B1B1B;
+  color: #696969;
   margin-bottom: 15px;
   letter-spacing: 0.025em;
 }
 li {
   font-size: 15px;
   font-weight: 400;
-  color: #1B1B1B;
+  color: #696969;
   margin-bottom: 10px;
   letter-spacing: 0.025em;
 }
@@ -311,6 +311,11 @@ header {
   align-items: center;
   text-align: center;
 }
+.home-logo{
+  width: 100px;
+  height: 35px;
+}
+
 .dim {
   width: 100vw;
   height: 100vh;
@@ -707,9 +712,9 @@ footer {
   font-size: 0.8rem;
   color: #BABABA;
 }
-.footer-info p:nth-child(2) {
+/* .footer-info p:nth-child(2) {
   margin: 30px 0px;
-}
+} */
 .footer-info p a {
   color: #FFE600;
 }
@@ -733,18 +738,18 @@ footer {
   font-size: 0.8rem;
 }
 .footer-btn a {
-  background-color: #FFE600;
+  background-color: #3cb371;
   padding: 15px 100px;
   border-radius: 25px;
   font-weight: 600;
-  border: 1px solid #FFE600;
+  border: 1px solid #3cb371;
 }
 .footer-btn {
   margin-top: 45px;
 }
 .footer-btn a:hover {
   background-color: transparent;
-  border: 1px solid #FFE600;
+  border: 1px solid #3cb371;
   color: #BABABA;
 }
 .social {
@@ -754,6 +759,8 @@ footer {
   display: inline-block;
   margin-right: 10px;
 }
+
+
 /*-----------------------------------------------------------
     11. Responsive
 -------------------------------------------------------------*/
@@ -883,8 +890,23 @@ footer {
   box-shadow: 0px 0px 0px 5px #3cb371;
   border: dashed 1px #FFF;
   margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 25px;
 }
 
 .btn-stitch:hover {
   border: dotted 1px #FFF;
+}
+
+a{
+  color: #FFF;
+}
+
+.icon{
+  width: 70px;
+  height: 70px;
+}
+
+.footer-links{
+  /* margin-left: 150px; */
 }
